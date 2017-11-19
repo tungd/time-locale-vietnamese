@@ -13,6 +13,10 @@ main = do
   print $ formatTime vietnameseTimeLocale "%A, %d %B %Y" now
 ```
 
+## TODO
+
+- Add some commonly used formats
+
 ## License
 
 Copyright 2017 Tung Dao
