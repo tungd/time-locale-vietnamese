@@ -16,6 +16,8 @@ main = do
 ## TODO
 
 - Add some commonly used formats
+- Documents
+- Publish to Stackage
 
 ## License
 
