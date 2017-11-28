@@ -2,6 +2,9 @@
 
 Vietnamese Time Locale for date and time format.
 
+See module documentation for further information:
+http://hackage.haskell.org/package/time-locale-vietnamese-1.0.0.0/docs/Data-Time-Locale-Vietnamese.html
+
 ## Usage
 
 ```haskell
@@ -12,12 +15,6 @@ main = do
   now <- getCurrentTime
   print $ formatTime vietnameseTimeLocale "%A, %d %B %Y" now
 ```
-
-## TODO
-
-- Add some commonly used formats
-- Documents
-- Publish to Stackage
 
 ## License
 
