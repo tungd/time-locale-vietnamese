@@ -24,5 +24,7 @@ vietnameseTimeLocale = TimeLocale
   , dateFmt = "%d/%m/%y"
   , timeFmt = "%H:%M:%S"
   , time12Fmt = "%I:%M:%S %p"
-  , knownTimeZones = [ TimeZone 0 False "GMT" ]
+  , knownTimeZones = [ TimeZone 0 False "GMT"
+                     , TimeZone (7 * 60) False "ICT"
+                     ]
   }
